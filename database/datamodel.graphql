@@ -1,0 +1,6 @@
+type User {
+  id: ID! @unique @id
+  username: String! 
+  stellarAccount: String!
+  stellarSeed: String!
+}
